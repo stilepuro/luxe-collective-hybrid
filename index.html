@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE COLLECTIVE - Editoriale & Shop</title>
+    <meta name="description" content="LUXE Collective - La tua destinazione per contenuti editoriali di lusso e shopping esclusivo">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1 class="logo-text">LUXE</h1>
+                    <span class="logo-tagline">COLLECTIVE</span>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Apri menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav" role="navigation">
+                    <ul class="nav-list">
+                        <li><a href="#editoriale" class="nav-link">Editoriale</a></li>
+                        <li><a href="#shop" class="nav-link">Shop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Chiudi menu">
+                <span class="close-line"></span>
+                <span class="close-line"></span>
+            </button>
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                    <li><a href="#editoriale" class="mobile-nav-link">Editoriale</a></li>
+                    <li><a href="#shop" class="mobile-nav-link">Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">LUXE COLLECTIVE</h1>
+            <p class="hero-subtitle">Fashion, Beauty & Lifestyle</p>
+            <div class="hero-buttons">
+                <a href="#editoriale" class="btn btn-primary">Esplora Editoriale</a>
+                <a href="#shop" class="btn btn-secondary">Scopri il Shop</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Editorial Section -->
+    <section id="editoriale" class="editorial-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Editoriale</h2>
+                <p class="section-subtitle">Contenuti esclusivi su moda, beauty e lifestyle</p>
+            </div>
+            
+            <div class="editorial-grid">
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&h=400&fit=crop" alt="Moda Autunno 2024">
+                    </div>
+                    <div class="article-content">
+                        <h3 class="article-title">Tendenze Autunno 2024: I Colori Che Conquistano</h3>
+                        <p class="article-excerpt">Dal rosso cardinalizio al verde salvia, scopri le nuance che dominano la stagione e come indossarle con eleganza.</p>
+                        <div class="article-meta">
+                            <span class="article-category">Moda</span>
+                            <span class="article-date">27 Ottobre 2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&h=400&fit=crop" alt="Beauty Routine">
+                    </div>
+                    <div class="article-content">
+                        <h3 class="article-title">La Beauty Routine Perfetta per l'Inverno</h3>
+                        <p class="article-excerpt">5 step essenziali per una pelle luminosa e idratata anche nelle giornate più fredde dell'anno.</p>
+                        <div class="article-meta">
+                            <span class="article-category">Beauty</span>
+                            <span class="article-date">26 Ottobre 2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop" alt="Lifestyle">
+                    </div>
+                    <div class="article-content">
+                        <h3 class="article-title">Minimalismo Chic: Come Creare un Look Sofisticato</h3>
+                        <p class="article-excerpt">L'arte di vestire con pochi pezzi iconici senza rinunciare alla personalità e all'eleganza.</p>
+                        <div class="article-meta">
+                            <span class="article-category">Lifestyle</span>
+                            <span class="article-date">25 Ottobre 2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1543168256-418811576931?w=600&h=400&fit=crop" alt="Accessori">
+                    </div>
+                    <div class="article-content">
+                        <h3 class="article-title">Gli Accessori Indispensabili della Stagione</h3>
+                        <p class="article-excerpt">Dalle borse in pelle agli orecchini statement, i dettagli che fanno la differenza.</p>
+                        <div class="article-meta">
+                            <span class="article-category">Accessori</span>
+                            <span class="article-date">24 Ottobre 2024</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Shop</h2>
+                <p class="section-subtitle">Selezione curata di pezzi iconici e tendenze esclusive</p>
+            </div>
+            
+            <div class="shop-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=500&fit=crop" alt="Cappotto di Lusso">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary">Acquista Ora</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Cappotto Wool Luxury</h3>
+                        <p class="product-price">€890</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=500&fit=crop" alt="Borsa Designer">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary">Acquista Ora</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Borsa Leather Bag</h3>
+                        <p class="product-price">€450</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1520975693411-75d5fcece12e?w=400&h=500&fit=crop" alt="Stivali Premium">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary">Acquista Ora</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Stivali Premium Leather</h3>
+                        <p class="product-price">€650</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop" alt="Gioielli">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary">Acquista Ora</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Jewelry Set Gold</h3>
+                        <p class="product-price">€320</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=400&h=500&fit=crop" alt="Sciarpa di Seta">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary">Acquista Ora</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Sciarpa Silk Premium</h3>
+                        <p class="product-price">€180</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop" alt="Pullover Cashmere">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary">Acquista Ora</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pullover Cashmere</h3>
+                        <p class="product-price">€520</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>LUXE COLLECTIVE</h3>
+                    <p>La tua destinazione per moda, beauty e lifestyle di lusso</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Editoriale</h4>
+                        <ul>
+                            <li><a href="#">Moda</a></li>
+                            <li><a href="#">Beauty</a></li>
+                            <li><a href="#">Lifestyle</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Shop</h4>
+                        <ul>
+                            <li><a href="#">Abbigliamento</a></li>
+                            <li><a href="#">Accessori</a></li>
+                            <li><a href="#">Beauty</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LUXE COLLECTIVE. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
